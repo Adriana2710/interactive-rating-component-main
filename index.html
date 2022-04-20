@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container">
+    <div class="card" data-card1>
+      <img class="card__icon" src="images/icon-star.svg" alt="star icon">
+      <h1 class="card__title">How did we do?</h1>
+      <p class="card__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <ul class="card__rate">
+        <li><button class="card__button card__button--rate" data-rate>1</button></li>
+        <li><button class="card__button card__button--rate" data-rate>2</button></li>
+        <li><button class="card__button card__button--rate" data-rate>3</button></li>
+        <li><button class="card__button card__button--rate" data-rate>4</button></li>
+        <li><button class="card__button card__button--rate" data-rate>5</button></li>
+      </ul>
+      <button class="card__button card__button--submit" data-submit>Submit</button>
+    </div>
+
+    <div class="card card--result hidden" data-card2>
+      <img class="card__result-image" src="images/illustration-thank-you.svg" alt="thank you illustration">
+      <p class="card__result-rate">You selected <spam data-result></spam> out of 5</p>
+      <h1 class="card__title">Thank you!</h1>
+      <p class="card__text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="attribution__link" href="#">Adriana Silva Almeida</a>.
+  </footer>
+  <script src="submit.js"></script>
+</body>
+</html>
