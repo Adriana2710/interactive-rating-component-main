@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/screenshot-card1.png)
-![](/images/screenshot-card2.png)
+![](assets/images/screenshot-card1.png)
+![](assets/images/screenshot-card2.png)
 
 ## My process
 
