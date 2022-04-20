@@ -120,15 +120,6 @@ body {
     background-color: var(--white);
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution__link { 
-    color: var(--blue-purple);
-}
-
 /* Thank you card Styles */
 
 .card--result {
