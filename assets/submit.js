@@ -12,7 +12,11 @@ rateButton.forEach(function(elemento){
 })
 
 
-buttonSubmit.onclick = function() {
-    card1.classList.add("hidden");
-    card2.classList.remove("hidden");
+buttonSubmit.onclick = function(e) {
+    if (result.textContent=="") {
+        alert("You must select a score");
+    } else {
+        card1.classList.add("hidden");
+        card2.classList.remove("hidden");
+    }                       
 };
